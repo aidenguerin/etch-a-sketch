@@ -1,0 +1,10 @@
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-square {
+    background-color: beige;
+    height: 50px;
+    width: 50px;
+}
