@@ -3,8 +3,61 @@
     flex-direction: row;
 }
 
+.container {
+    
+}
+
+.main-container {
+    margin: 50px auto;
+    width: 800px;
+    height: 800px;
+    background-color: red;
+    padding: 0px 60px;
+    border-radius: 5%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-family: "Apple Chancery", cursive;
+    font-size: 50px; 
+    padding: 10px;
+    color: white;
+}
+
+.canvas {
+    margin-right: auto;
+    width: 800px;
+    height: 1000px;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.row {
+    display: flex;
+    flex: auto;
+}
+
 .grid-square {
     background-color: beige;
-    height: 50px;
-    width: 50px;
+    flex: auto;
+
+}
+
+.dials-container {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.dial {
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
